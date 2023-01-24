@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* Fonts */
+  font-family: 'Ubuntu Mono', monospace;
+
+}
+
+/* Stephen */
+.placeholder {
+  height: 35px;
+  background-color: #0a04ea;
+}
+
+.stephen {
+  background-color: #0a04ea;
+}
+
+.stephen h1 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+}
+
+.stephen .gallery {
+  display: flex;
+  margin: 0 auto 20px;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.stephen .gallery img {
+  background-size: cover;
+  max-width: 300px;
+
+  margin: 10px auto 0;
+}
+
+/* Gallery */
+.aib h1 {
+  text-align: center;
+  margin: 25px auto 35px;
+}
+
+.aib .gallery {
+  display: flex;
+  margin: 0 auto 20px;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.aib .gallery img {
+  background-size: cover;
+  max-width: 300px;
+
+  margin: 10px auto;
+}
+
+/* Responsive Breakpoint */
+@media screen and (min-width: 768px) {
+  .aib h1 {
+    text-align: center;
+    margin: 50px auto;
+
+    font-size: 40px;
+  }
+
+  .aib .gallery {
+    display: flex;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aib .gallery img {
+    background-size: cover;
+    min-width: 300px;
+
+    margin: 10px auto;
+  }
+}
